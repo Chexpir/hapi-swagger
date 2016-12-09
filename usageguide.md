@@ -38,7 +38,7 @@ method: 'POST',
         validate: {
             payload: Joi.object({
                 a: Joi.number(),
-                b: Joi.nunber()
+                b: Joi.nuber()
             })
         }
     }
@@ -62,7 +62,7 @@ If you wish to have hapi-swagger display a interface to POST data in `form-urlen
         validate: {
             payload: Joi.object({
                 a: Joi.number(),
-                b: Joi.nunber()
+                b: Joi.number()
             })
         }
     }
